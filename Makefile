@@ -13,5 +13,7 @@ hello: greetings.o main.o
 
 clean: 
 	rm -rf hello *.o
+test:
+	./hello >> test.out
 
 
